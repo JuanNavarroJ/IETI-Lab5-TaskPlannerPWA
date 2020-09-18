@@ -1,11 +1,9 @@
 
-## Despliegue Heroku
+## Despliegue Firebase
 
-https://taskplanner2ieti.herokuapp.com/
+https://taskplannerapp-ieti.web.app/
 
-## Despliegue Azure
-
-https://juanlab4.z13.web.core.windows.net/
+https://taskplannerapp-ieti.firebaseapp.com/
 
 ## Código de Honor
 

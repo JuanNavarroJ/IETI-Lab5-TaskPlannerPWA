@@ -18,27 +18,33 @@ Debes seguir el Código de honor del ingeniero de sistemas para defender el est�
 
 ## Desarrollo
 
-Para agregar una tarea nueva damos en el botón "+".
-![image](https://user-images.githubusercontent.com/44879884/92794783-7f425c00-f375-11ea-9734-b328c9b3c443.png)
+Al abrir la aplicación en el navegador nos saldrá un mensaje que si la queremos agregar a la pantalla principal damos click en el letrero.
 
-Se nos abrirá una ventana emergente donde pondremos los datos de la nueva tarea y damos en "Add".
-![image](https://user-images.githubusercontent.com/44879884/92795057-b57fdb80-f375-11ea-942b-a9232c2e531e.png)
+![1cel](https://user-images.githubusercontent.com/44879884/93689627-fc688200-fa95-11ea-8678-ee550ba5d7c5.jpeg)
 
-Inmediatamente se agregará la nueva tarea al resto de tareas.
-![image](https://user-images.githubusercontent.com/44879884/92795203-cfb9b980-f375-11ea-91d0-1f07117dd2da.png)
+Esto nos descargara nuestro Task Planner como una App independiente.
 
-En el menú desplegable podremos editar la información del usuario para eso daremos en el botón con forma de formulario.
-![image](https://user-images.githubusercontent.com/44879884/92795298-e4964d00-f375-11ea-845f-00369245a2fc.png)
+![2cel](https://user-images.githubusercontent.com/44879884/93689620-f96d9180-fa95-11ea-86c5-486bfe44f1c5.jpeg)
 
-Se nos abrirá otra ventana emergente donde pondremos los nuevos datos y daremos en “Update” para actualizar.
-![image](https://user-images.githubusercontent.com/44879884/92795535-11e2fb00-f376-11ea-8d91-b9e19960ff09.png)
+Aquí podemos ver el Task Planner abierto tanto en el navegador como en la aplicación propia.
 
-Luego podremos ver que los datos se han actualizado.
-![image](https://user-images.githubusercontent.com/44879884/92795599-1dcebd00-f376-11ea-9cb8-d68c220fa911.png)
+![3cel](https://user-images.githubusercontent.com/44879884/93689621-fa062800-fa95-11ea-901d-6f19dd7b5ac6.jpeg)
 
-Y por último también tendremos un botón donde se pueden filtrar las tareas.
-![image](https://user-images.githubusercontent.com/44879884/92795918-60909500-f376-11ea-96ee-ca5340e16af5.png)
+Ahora vemos en Task Planner como aplicación y no en el navegador.
 
+![4cel](https://user-images.githubusercontent.com/44879884/93689622-fa062800-fa95-11ea-9740-4e58fc354e2c.jpeg)
+
+Lo mismo podemos ver en el navegador del computador, basta con darle en botón + que sale al final de la dirección url y damos en instalar.
+
+![1dowloadBrowser](https://user-images.githubusercontent.com/44879884/93689619-f8d4fb00-fa95-11ea-9fff-409bfdc1283a.PNG)
+
+Esto nos descarga una aplicación independiente.
+
+![5appDes](https://user-images.githubusercontent.com/44879884/93689623-fa062800-fa95-11ea-8124-9ccbc6cec7b3.PNG)
+
+La cual vemos en esta imagen. 
+
+![6appDeass](https://user-images.githubusercontent.com/44879884/93689626-fbcfeb80-fa95-11ea-8db4-dfad3c577bc9.PNG)
 
 ## Available Scripts
 

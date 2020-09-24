@@ -3,8 +3,6 @@
 
 https://taskplannerapp-ieti.web.app/
 
-https://taskplannerapp-ieti.firebaseapp.com/
-
 ### Credenciales
 
 usuario: admin@mail.com

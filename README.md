@@ -5,6 +5,11 @@ https://taskplannerapp-ieti.web.app/
 
 https://taskplannerapp-ieti.firebaseapp.com/
 
+### Credenciales
+
+usuario: admin@mail.com
+clave: admin
+
 ## Código de Honor
 
 Debes seguir el Código de honor del ingeniero de sistemas para defender el estándar de integridad académica de la ECI:

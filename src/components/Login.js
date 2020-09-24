@@ -10,7 +10,10 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import { Link } from 'react-router-dom';
+import { Link ,Redirect,Route} from 'react-router-dom';
+
+localStorage.setItem("user", "admin@mail.com");
+localStorage.setItem("pass", "admin");
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -34,6 +37,15 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignIn() {
   const classes = useStyles();
+  const [isLoggedIn, setIsLoggedIn] = React.useState(false);
+  const handleV = () => {
+    if(document.getElementById("email").value === localStorage.getItem("user") && document.getElementById("password").value === localStorage.getItem("pass")){
+      setIsLoggedIn(true);
+    } else {
+      alert("Usuario o contraseña incorrecta")
+      alert("Usuario: admin@mail.com     Clave: admin")
+    }
+  }
 
   return (
     <Container component="main" maxWidth="xs">
@@ -72,17 +84,23 @@ export default function SignIn() {
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
-          <Link to="/Dashboard">
-            <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                className={classes.submit}
-            >
-                Sign In
-            </Button>
-            </Link>
+          <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+              onClick={handleV}
+          >
+              Sign In
+          </Button>
+          {isLoggedIn ?
+            <Route>
+              <Redirect to='/Dashboard'></Redirect>
+            </Route>
+            :
+            null
+          }
           <Grid container>
             <Grid item xs>
               <Link to="/" variant="body2">
